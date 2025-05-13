@@ -1,7 +1,7 @@
 
-# 🍦 Ice Cream Café Management System
+# 🍦 Ice Cream Cafe Management System
 
-A simple and modular Ice Cream Café database application built using Python and SQLite. This CLI-based system lets customers suggest new flavours, manage allergens, ingredients, and shopping cart, and allows admins to manage flavours and inventory.
+A simple and modular Ice Cream Cafe database application built using Python and SQLite. This CLI-based system lets customers suggest new flavours, manage allergens, ingredients, and shopping cart, and allows admins to manage flavours and inventory.
 
 ---
 
