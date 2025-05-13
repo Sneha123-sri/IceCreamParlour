@@ -33,10 +33,6 @@ A simple and modular Ice Cream Café database application built using Python and
 - Add ingredients to inventory
 - View ingredient inventory
 
-> 💡 All interactions are menu-based in a CLI environment for simplicity and ease of testing.
-
----
-
 ## 🧪 How to Use
 
 ### 1. Clone the Repository
@@ -92,9 +88,7 @@ Enter your suggestion: Rose Cardamom
 Rose Cardamon was suggested by sneha
 
 ### Add to Cart
-
 Enter your choice: 9
 Enter flavour to add: Chocolate
 ✔ Chocolate added to cart!
-
-
+Here the operations will be worked based on the choice they have given.
