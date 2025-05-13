@@ -112,16 +112,17 @@ This separation of logic (Customer) and interface (EndUser) keeps the applicatio
 For example:
 - If the user selects `1`, the `add_suggestion()` method from `EndUser` is called, which collects input and then calls `customer.add_suggestion()` from `customer.py`.
 - Similarly, if the user selects `9`, it triggers `add_to_cart()` from `EndUser`, which again uses `Customer`’s logic to insert the flavour into the cart table in the SQLite database.
- Use official Python 3.12 image
-FROM python:3.12-alpine
 
-# Set working directory inside the container
-WORKDIR /app
+---
 
-# Copy project files into the container
-COPY FictionalIceParlour/ .
+## 🐳 Docker Instructions
 
+### 🔧 Build the Docker Image
+```bash
+docker build -t icecream-app .
+```
 
-# Run the application
-CMD ["python", "main.py"]
-
+### ▶️ Run the Application
+```bash
+docker run --rm icecream-app
+```
