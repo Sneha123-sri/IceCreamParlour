@@ -1,12 +1,9 @@
-# Use official Python 3.12 image
+
 FROM python:3.12-alpine
 
-# Set working directory inside the container
+
 WORKDIR /app
 
-# Copy project files into the container
-COPY FictionalIceParlour/ .
+COPY FictionalIceParlour/ 
 
-
-# Run the application
 CMD ["python", "main.py"]
